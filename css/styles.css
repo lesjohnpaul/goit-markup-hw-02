@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700px;
+  src: url("/fonts/Raleway-Bold.ttf");
+}
+:root {
+  --color-iris: #4d5ae5;
+  --color-navyblue: #2e2f42;
+  --color-white: #fff;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: var(--color-white);
+}
+ul {
+  list-style-type: none;
+}
+/* Logo Section */
+.logo-web {
+  font-family: "Raleway";
+  color: var(--color-iris);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-studio {
+  font-family: "Raleway";
+  color: var(--color-navyblue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+/* Navigation Bar Section */
+.main-header-menu-link {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.main-header-menu-contact {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.hero-section {
+  background-color: var(--color-navyblue);
+}
+h1 {
+  color: var(--color-white);
+  text-align: center;
+
+  font-family: "Roboto";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
