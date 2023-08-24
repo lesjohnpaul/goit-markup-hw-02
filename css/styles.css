@@ -7,6 +7,7 @@
   --color-iris: #4d5ae5;
   --color-navyblue: #2e2f42;
   --color-white: #fff;
+  --color-cloud: #f4f4fd;
 }
 
 body {
@@ -20,7 +21,7 @@ ul {
 .logo-web {
   font-family: "Raleway";
   color: var(--color-iris);
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: 21px;
@@ -30,7 +31,7 @@ ul {
 .logo-studio {
   font-family: "Raleway";
   color: var(--color-navyblue);
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: 21px;
@@ -39,12 +40,22 @@ ul {
 }
 
 /* Navigation Bar Section */
-.main-header-menu-link {
+.main-header-menu-link.active {
+  color: var(--color-iris);
   text-decoration: none;
   font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
+}
+
+.main-header-menu-link {
+  color: var(--color-navyblue);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .main-header-menu-contact {
@@ -55,17 +66,42 @@ ul {
   font-weight: 500;
 }
 
+/* Call to Action Button */
+.main-header-cta {
+  color: var(--color-white);
+  background-color: var(--color-iris);
+  font-family: "Roboto";
+  font-weight: 500;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+}
+/* Hero Section */
 .hero-section {
   background-color: var(--color-navyblue);
 }
 h1 {
   color: var(--color-white);
   text-align: center;
-
   font-family: "Roboto";
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
+}
+.h2-whatwearedoing {
+  text-align: center;
+}
+
+.ourteam-section {
+  background-color: var(--color-cloud);
+}
+.h2-ourteam {
+  text-align: center;
+}
+
+.ourteam-section h3,
+p {
+  text-align: center;
 }
