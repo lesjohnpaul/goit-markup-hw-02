@@ -176,7 +176,7 @@ h1 {
 
 .services-category-button.active {
   background-color: var(--color-iris);
-  color: var(--color-white); /* white text color */
+  color: var(--color-white); /*White text color */
 }
 
 .services-category-button:hover {
