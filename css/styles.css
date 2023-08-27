@@ -19,20 +19,26 @@
 .footerlogo-web {
   text-decoration: none;
 } */
-.nav-logo,
-.footer-logo {
-  text-decoration: none;
-}
+
 body {
-  font-family: "Roboto";
-  background-color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  background-color: none;
 }
-ul {
+.main-header-menu,
+.main-header-menu-contact,
+.features-section-list,
+.image_tiles,
+.services-category-filter,
+.services-image-tiles {
   list-style-type: none;
   color: var(--color-navyblue);
 }
 
 /* Logo Section */
+.nav-logo,
+.footer-logo {
+  text-decoration: none;
+}
 .logo-web,
 .footerlogo-web {
   font-family: "Raleway";
@@ -45,6 +51,7 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+
 .logo-studio {
   font-family: "Raleway";
   color: var(--color-navyblue);
@@ -93,9 +100,9 @@ ul {
   font-style: normal;
   font-weight: 400;
 }
-.main-header-menu-tel-link,
-.main-header-menu-num-link {
-  color: var(--color-slate);
+.main-header-menu-tel-link:hover,
+.main-header-menu-num-link:hover {
+  color: var(--color-iris);
 }
 /* Call to Action Button */
 .main-header-cta {
