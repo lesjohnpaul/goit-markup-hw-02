@@ -8,6 +8,7 @@
   --color-navyblue: #2e2f42;
   --color-white: #fff;
   --color-cloud: #f4f4fd;
+  --color-slate: #434455;
 }
 
 body {
@@ -101,7 +102,7 @@ h1 {
   text-align: center;
 }
 
-.ourteam-section h3,
-p {
+.ourteam-section p,
+.ourteam-section h3 {
   text-align: center;
 }
