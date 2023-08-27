@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +8,7 @@
 
     <link rel="stylesheet" href="/css/styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -26,12 +24,16 @@
         </a>
         <ul class="main-header-menu">
           <li class="main-header-menu-item">
-            <a class="main-header-menu-link active" href="/goit-markup-hw-02/index.html"
+            <a
+              class="main-header-menu-link active"
+              href="/goit-markup-hw-02/index.html"
               >Studio</a
             >
           </li>
           <li class="main-header-menu-item">
-            <a class="main-header-menu-link" href="/goit-markup-hw-02/portfolio.html"
+            <a
+              class="main-header-menu-link"
+              href="/goit-markup-hw-02/portfolio.html"
               >Portfolio</a
             >
           </li>
@@ -45,13 +47,71 @@
       <address>
         <ul class="main-header-menu-contact">
           <li class="main-header-menu-tel">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a
+              class="main-header-menu-tel-link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="main-header-menu-num">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="main-header-menu-num-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
-  <body></body>
+
+    <main>
+      <section class="services-category-section">
+        <h2 hidden>Service Category Section</h2>
+        <ul class="services-category-filter">
+          <li>
+            <button
+              id="all"
+              class="services-category-button active"
+              type="button"
+            >
+              All
+            </button>
+          </li>
+          <li>
+            <button id="website" class="services-category-button" type="button">
+              Web Site
+            </button>
+          </li>
+          <li>
+            <button id="app" class="services-category-button" type="button">
+              App
+            </button>
+          </li>
+          <li>
+            <button id="design" class="services-category-button" type="button">
+              Design
+            </button>
+          </li>
+          <li>
+            <button
+              id="marketing"
+              class="services-category-button"
+              type="button"
+            >
+              Marketing
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="main-footer-section">
+      <a href="/goit-markup-hw-01/">
+        <span class="footerlogo-web">WEB</span
+        ><span class="footerlogo-studio">STUDIO</span>
+      </a>
+      <p class="footer-text">
+        Increase the flow of customers and <br />sales for your business with
+        digital <br />marketing & growth solutions.
+      </p>
+    </footer>
+  </body>
 </html>
