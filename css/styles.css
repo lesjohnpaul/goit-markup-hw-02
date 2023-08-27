@@ -19,7 +19,8 @@ ul {
   list-style-type: none;
 }
 /* Logo Section */
-.logo-web {
+.logo-web,
+.footerlogo-web {
   font-family: "Raleway";
   color: var(--color-iris);
   font-size: 20px;
@@ -39,7 +40,16 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-
+.footerlogo-studio {
+  font-family: "Raleway";
+  color: var(--color-white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 /* Navigation Bar Section */
 .main-header-menu-link.active {
   color: var(--color-iris);
@@ -94,15 +104,34 @@ h1 {
 .h2-whatwearedoing {
   text-align: center;
 }
-
+/* Feature section */
+.features-description {
+  color: var(--color-slate);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+/* Team Section */
 .ourteam-section {
   background-color: var(--color-cloud);
 }
-.h2-ourteam {
+
+.h2-ourteam,
+.ourteam-jobdesc,
+.ourteam-name {
   text-align: center;
 }
 
-.ourteam-section p,
-.ourteam-section h3 {
-  text-align: center;
+.ourteam-jobdesc {
+  color: var(--color-slate);
+}
+
+/* Footer Section */
+.main-footer-section {
+  background-color: var(--color-navyblue);
+  color: var(--color-cloud);
+  text-decoration: none;
 }
