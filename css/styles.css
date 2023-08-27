@@ -17,6 +17,7 @@ body {
 }
 ul {
   list-style-type: none;
+  color: var(--color-navyblue);
 }
 /* Logo Section */
 .logo-web,
