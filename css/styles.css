@@ -3,14 +3,24 @@
   font-weight: 400px;
   src: url("/fonts/Raleway-Bold.ttf");
 }
+
 :root {
   --color-iris: #4d5ae5;
   --color-navyblue: #2e2f42;
   --color-white: #fff;
   --color-cloud: #f4f4fd;
   --color-slate: #434455;
+  --color-lightslate: #8e8f99;
 }
-a {
+/* .nav-logo,
+.logo-studio,
+.logo-web,
+.footerlogo-studio,
+.footerlogo-web {
+  text-decoration: none;
+} */
+.nav-logo,
+.footer-logo {
   text-decoration: none;
 }
 body {
@@ -26,6 +36,7 @@ ul {
 .logo-web,
 .footerlogo-web {
   font-family: "Raleway";
+  text-decoration: none;
   color: var(--color-iris);
   font-size: 16px;
   font-style: normal;
@@ -173,4 +184,16 @@ h1 {
 /* Optional: Add a subtle shadow effect */
 .services-category-button:not(.active):hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.services-name {
+  color: var(--color-navyblue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.service-category {
+  color: var(--color-slate);
 }
