@@ -26,7 +26,7 @@
       <nav class="nav-links">
         <!-- Nav bar -->
         <a href="/goit-markup-hw-02/index.html" class="nav-logo">
-          <a class="logo-web">WEB</a><a class="logo-studio">STUDIO</a>
+          <span class="logo-web">WEB</span>STUDIO
         </a>
 
         <ul class="main-header-menu">
@@ -69,34 +69,34 @@
       </address>
     </header>
 
-    <main>
-      <section class="services-category-section">
-        <h2 hidden>Our Services and Products</h2>
-        <ul class="services-category-filter">
-          <li>
-            <button id="all" class="services-category-button" type="button">
+    <main class="porfolio-main">
+      <section class="portfolio">
+        <h2 class="portfolio-title" hidden>Our Services and Products</h2>
+        <ul class="filter-list">
+          <li class="filter-list-item">
+            <button id="all" class="portfolio-filter-button" type="button">
               All
             </button>
           </li>
-          <li>
-            <button id="website" class="services-category-button" type="button">
+          <li class="filter-list-item">
+            <button id="website" class="portfolio-filter-button" type="button">
               Web Site
             </button>
           </li>
           <li>
-            <button id="app" class="services-category-button" type="button">
+            <button id="app" class="portfolio-filter-button" type="button">
               App
             </button>
           </li>
-          <li>
-            <button id="design" class="services-category-button" type="button">
+          <li class="filter-list-item">
+            <button id="design" class="portfolio-filter-button" type="button">
               Design
             </button>
           </li>
-          <li>
+          <li class="filter-list-item">
             <button
               id="marketing"
-              class="services-category-button"
+              class="portfolio-filter-button"
               type="button"
             >
               Marketing
@@ -104,87 +104,95 @@
           </li>
         </ul>
 
-        <ul class="services-image-tiles">
-          <li>
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item">
             <img
               src="images/banking-app-ui.jpg"
               alt="Bank App UI mockups with purple color family"
               width="300"
             />
-            <h3 class="services-name">Banking App Interface Concept</h3>
-            <p class="services-category" data-category="App">App</p>
+            <h3 class="portfolio-name">Banking App Interface Concept</h3>
+            <p class="portfolio-type" data-category="App">App</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-item-image"
               src="images/cashless-payment.jpg"
               alt="a phone scanning QR code to make a transaction"
               width="300"
             />
-            <h3 class="services-name">Cashless Payment</h3>
-            <p class="services-category" data-category="Marketing">Marketing</p>
+            <h3 class="portfolio-name">Cashless Payment</h3>
+            <p class="portfolio-type" data-category="Marketing">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-item-image"
               src="images/meditation-app.jpg"
               alt="Laptop and Phone Screen mockup with 'return to normalcy' text on it"
               width="300"
             />
-            <h3 class="services-name">Meditation App</h3>
-            <p class="services-category" data-category="App">App</p>
+            <h3 class="portfolio-name">Meditation App</h3>
+            <p class="portfolio-type" data-category="App">App</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-item-image"
               src="images/taxi-service.jpg"
               alt="Car's turning wheel with a phone holder hanging on the leftside frontview of the driver"
               width="300"
             />
-            <h3 class="services-name">Taxi Service</h3>
-            <p class="services-category" data-category="Marketing">Marketing</p>
+            <h3 class="portfolio-name">Taxi Service</h3>
+            <p class="portfolio-type" data-category="Marketing">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-item-image"
               src="images/screen-illustrations.jpg"
               alt="Moon light design graphics on a phone screen mockups"
               width="300"
             />
-            <h3 class="services-name">Screen Illustrations</h3>
-            <p class="services-category" data-category="Design">Design</p>
+            <h3 class="portfolio-name">Screen Illustrations</h3>
+            <p class="portfolio-type" data-category="Design">Design</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-item-image"
               src="images/online-courses.jpg"
               alt="A happy woman wearing her clear eyeglasses, gray bonnet and orange knitted clothes holding her phone and right pair of her wired earphones"
               width="300"
             />
-            <h3 class="services-name">Online Courses</h3>
-            <p class="services-category" data-category="Marketing">Marketing</p>
+            <h3 class="portfolio-name">Online Courses</h3>
+            <p class="portfolio-type" data-category="Marketing">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-item-image"
               src="images/insta-stories-concept.jpg"
               alt="A website design for social media content"
               width="300"
             />
-            <h3 class="services-name">Instagram Stories Concept</h3>
-            <p class="services-category" data-category="Design">Design</p>
+            <h3 class="portfolio-name">Instagram Stories Concept</h3>
+            <p class="portfolio-type" data-category="Design">Design</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-item-image"
               src="images/organic-food.jpg"
               alt="Woman carrying fruits and Green leafy vegtables on a plastic bag"
               width="300"
             />
-            <h3 class="services-name">Organic Food</h3>
-            <p class="services-category" data-category="Web Site">Web Site</p>
+            <h3 class="portfolio-name">Organic Food</h3>
+            <p class="portfolio-type" data-category="Web Site">Web Site</p>
           </li>
-          <li>
+          <li class="portfolio-list-item">
             <img
+              class="portfolio-item-image"
               src="images/fresh-coffee.jpg"
               alt="Moon light design graphics on a phone screen mockups"
               width="300"
             />
-            <h3 class="services-name">Fresh Coffee</h3>
-            <p class="services-category" data-category="Design">Design</p>
+            <h3 class="portfolio-name">Fresh Coffee</h3>
+            <p class="portfolio-type" data-category="Design">Design</p>
           </li>
         </ul>
       </section>
@@ -192,7 +200,8 @@
     <!-- Footer section -->
     <footer class="main-footer-section">
       <a href="/goit-markup-hw-01/" class="footer-logo">
-        <a class="footerlogo-web">WEB</a><a class="footerlogo-studio">STUDIO</a>
+        <span class="footerlogo-web">WEB</span
+        ><span class="footerlogo-studio">STUDIO</span>
       </a>
       <p class="footer-text">
         Increase the flow of customers and <br />sales for your business with

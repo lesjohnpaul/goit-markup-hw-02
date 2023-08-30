@@ -214,7 +214,7 @@ a {
 }
 
 /* -----PORTFOLIO------ */
-.services-category-button {
+.portfolio-filter-button {
   background-color: var(--color-cloud);
   color: var(--color-iris);
   border: 1px solid var(--color-cornflower);
@@ -229,7 +229,7 @@ a {
   color: var(--color-white); 
 } */
 
-.services-category-button:hover {
+.portfolio-filter-button:hover {
   background-color: var(--color-ocean); /* iris color on hover */
   border: 1px solid var(--color-ocean);
   color: var(--color-white);
@@ -238,7 +238,7 @@ a {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.services-category-button:focus {
+.portfolio-filter-button:focus {
   outline: none; /* Remove default focus outline */
 }
 
@@ -247,7 +247,7 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 } */
 
-.services-name {
+.portfolio-name {
   color: var(--color-navyblue);
   font-size: 16px;
   font-style: normal;
@@ -255,6 +255,6 @@ a {
   letter-spacing: 0.4px;
 }
 
-.service-category {
+.portfolio-type {
   color: var(--color-slate);
 }
