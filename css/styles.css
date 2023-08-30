@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
 }
 @font-face {
   font-family: "Raleway";
@@ -19,13 +18,6 @@
   --color-lightslate: #8e8f99;
   --color-cornflower: #e7e9fc;
 }
-/* .nav-logo,
-.logo-studio,
-.logo-web,
-.footerlogo-studio,
-.footerlogo-web {
-  text-decoration: none;
-} */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -37,8 +29,16 @@ ul {
 a {
   text-decoration: none;
 }
-button {
+
+.main-header-cta {
   font-family: inherit;
+  border: unset;
+  outline: none;
+  cursor: pointer;
+}
+.main-header-cta:hover {
+  font-family: inherit;
+  background-color: var(--color-ocean);
   border: unset;
   outline: none;
   cursor: pointer;
@@ -58,19 +58,19 @@ button {
 /* Logo Section */
 .nav-logo,
 .footer-logo {
-  text-decoration: none;
-}
-.logo-web,
-.footerlogo-web {
   font-family: "Raleway";
-  text-decoration: none;
-  color: var(--color-iris);
+  color: var(--color-navyblue);
   font-size: 16px;
   font-style: normal;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.footerlogo-web,
+.logo-web {
+  color: var(--color-iris);
 }
 
 .logo-studio {
@@ -140,7 +140,7 @@ button {
 .hero-section {
   background-color: var(--color-navyblue);
 }
-h1 {
+.hero-title {
   color: var(--color-white);
   text-align: center;
   font-size: 56px;
@@ -149,13 +149,16 @@ h1 {
   line-height: 60px;
   letter-spacing: 1.12px;
 }
-.h2-whatwearedoing {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
-}
+
 /* Feature section */
+.features-item-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
 .features-description {
   color: var(--color-slate);
   font-size: 16px;
@@ -164,30 +167,43 @@ h1 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-/* Team Section */
-.ourteam-section {
-  background-color: var(--color-cloud);
-}
-.h2-ourteam {
+/* Services Section */
+.services-title {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   text-align: center;
 }
-.ourteam-name {
-  font-family: Roboto;
+
+/* Team Section */
+.team {
+  background-color: var(--color-cloud);
+}
+.team-title {
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.team-item-name {
   font-size: 20px;
+  text-align: center;
   font-style: normal;
   font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
 }
-
-.ourteam-jobdesc,
-.ourteam-name {
-  text-align: center;
-}
-
-.ourteam-jobdesc {
+.team-item-job {
   color: var(--color-slate);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 /* Footer Section */
