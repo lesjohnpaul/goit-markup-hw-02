@@ -213,6 +213,14 @@ a {
   text-decoration: none;
 }
 
+.footer-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
 /* -----PORTFOLIO------ */
 .portfolio-filter-button {
   background-color: var(--color-cloud);
